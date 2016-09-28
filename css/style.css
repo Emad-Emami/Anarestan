@@ -284,7 +284,7 @@ dialog .close-reveal-modal,
 ---------------------------- */
 
 .top_bar {
-  background: #fff;
+  background: #B40025;
   position: fixed;
   height: 40px;
   width: 100%;
@@ -292,7 +292,7 @@ dialog .close-reveal-modal,
   overflow: hidden;
   top: 0;
   left: 0;
-  border-bottom: 2px solid #77CB39;
+  box-shadow: 0 1px 3px #777;
 }
 .reg {
   display: block;
@@ -302,15 +302,16 @@ dialog .close-reveal-modal,
   list-style: none;
   padding: 0;
   line-height: 40px;
+  font-size: 13px;
 }
 .reg{
-  color: #707070;
+  color: #fff;
 }
 .reg a {
-  color: #EE1D23
+  color: #fff;
 }
 .reg a:hover {
-  color: #95A5A6;
+  background: #34b36a;
   text-decoration: none;
 }
 .reg li {
@@ -701,13 +702,18 @@ textarea {
   transition: all 0.5s ease;
 }
 .text{
-  background: 0 none;
-  display: inline;
+  background: #2dcc70;
+  display: inline-block;
   position: static;
   border-radius: 0;
   border:  0 none;
   margin: 0;
   padding: 0;
+  width: 80px;
+  height: auto;
+  line-height: 28px;
+  border-radius: 5px;
+  border-bottom: 2px solid #12a24f;
 }
 #info h4{
   width: 440px;
@@ -724,6 +730,10 @@ h3.red-bg:before{}
 .anarestan-sections .desc{margin: 60px auto;font-size: 13px;line-height: 29px;text-align: justify;}
 .anarestan-sections p{font-size: 13px}
 .columns.large-centered{float: none !important}
+#termsOfuse{background: #ED940F;padding: 1em 2em;color: #fff;border-radius: 5px;}
+#termsOfuse .content{padding-right: 80px;position: relative;}
+#termsOfuse .content:after{content: "\f1af";font-family: "foundation-icons";position: absolute;right: 0;top: 0;font-size: 88px;}
+#termsOfuse .content p{font-size: 13px;text-align: justify;line-height: 25px;}
 
 /*                   ORBIT
 ---------------------------- */

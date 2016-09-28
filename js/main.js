@@ -107,5 +107,14 @@ $(document).ready(function(){
       $('.services').addClass('action');
       flag6 = true;
     };
+    if ($(window).scrollTop() < 400 ) {
+      $('.action').removeClass('action');
+        flag1= false;
+        flag2= false;
+        flag3= false;
+        flag4= false;
+        flag5= false;
+        flag6= false;
+    };
   })
 })
